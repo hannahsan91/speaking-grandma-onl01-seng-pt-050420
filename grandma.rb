@@ -1,10 +1,11 @@
 def speak_to_grandma(phrase)
-  phrase = "Hey, Grandma"
-if phrase = "How are you Grandma?"
-  puts phrase = "HUH?! SPEAK UP, SONNY!"
-end
-if phrase = "I LOVE YOU GRANDMA"
-  puts phrase = "I LOVE YOU TOO PUMPKIN"
+  if phrase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
+  end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
